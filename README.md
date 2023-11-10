@@ -9,10 +9,10 @@ The dataset used for this project contains the following attributes:
 - `Delivery_person_Age`: Age of the delivery person
 - `Delivery_person_Ratings`: Ratings of the delivery person
 - `Restaurant_latitude`: Latitude of the restaurant
-- `Restaurant_longitude`: Longitude of the restaurant
+- `Restaurant_longitude `: Longitude of the restaurant
 - `Delivery_location_latitude`: Latitude of the delivery location
 - `Delivery_location_longitude`: Longitude of the delivery location
-- `Order_Date`: Date of the order
+- `Order_Date`: Date of the order was placed
 - `Time_Orderd`: Time when the order was placed
 - `Time_Order_picked`: Time when the order was picked up by the delivery person
 - `Weather_conditions`: Weather conditions at the time of delivery
