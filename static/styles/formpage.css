@@ -8,16 +8,17 @@ form {
 
 /* Set form width and center align */
 form {
-    width: 400px;
-    margin: 0 auto;
+        width: 400px;
+        margin: 0 auto;
 }
 
-/* Style form elements */
+/*   Style form elements */
 form label {
     display: block;
     margin-bottom: 8px;
     font-weight: bold;
     color: #333;
+
 }
 
 form input[type="number"],
@@ -28,11 +29,13 @@ form select {
     margin-bottom: 16px;
     border: 1px solid #ccc;
     border-radius: 4px;
+
 }
 
 form select {
     height: 34px;
     background-color: #f7f7f7;
+    
 }
 
 /* Style submit button */
