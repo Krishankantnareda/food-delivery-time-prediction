@@ -9,7 +9,7 @@
   
   .title {
     font-size: 48px;
-    color: #333;
+    color: rgb(28, 24, 24)c3c;
   }
   
   .button {
@@ -18,12 +18,12 @@
     margin-top: 24px;
     font-size: 24px;
     color: #fff;
-    background-color: #007bff;
+    background-color: #262b31;
     border-radius: 4px;
     text-decoration: none;
   }
   
   .button:hover {
-    background-color: #0069d9;
+    background-color: #8b7e5a;
   }
   
