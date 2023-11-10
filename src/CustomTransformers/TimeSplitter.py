@@ -5,6 +5,7 @@ class TimeSplitter(BaseEstimator,TransformerMixin):
     def __init__(self):
         pass
     def fit(self,X,y=None):
+
         return self
     def transform(self,X,y=None):
         df=X.copy()
@@ -26,3 +27,4 @@ class TimeSplitter(BaseEstimator,TransformerMixin):
     
     def get_feature_names_out(self,names=None):
         return self.columns
+    
