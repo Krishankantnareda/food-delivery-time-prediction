@@ -6,7 +6,7 @@ renv
 renv/
 # C extensions
 *.so
-
+renv.
 # Distribution / packaging
 .Python
 build/
