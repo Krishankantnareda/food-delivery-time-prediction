@@ -14,7 +14,7 @@ def get_requirements(path:str)->List[str]:
 setup(
     name="House-Price_prediction",
     version='0.0.1',
-    author='KrishanKant',
+    author='KrishanKant Sharma',
     author_email='naredakrishankant@gmail.com',
     install_requires=get_requirements('requirements.txt'),
     packages=find_packages()
