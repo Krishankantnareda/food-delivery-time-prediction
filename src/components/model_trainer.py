@@ -31,7 +31,7 @@ class modelTraining:
                 'GradientBoostingRegressor':GradientBoostingRegressor(),
                 'XGBRegressor':XGBRegressor(gamma=0.05)
                 }
-            
+            # Hyperparameter TUning
             hyperparameters_dict={
 
                 'DecisionTreeRegressor':{
