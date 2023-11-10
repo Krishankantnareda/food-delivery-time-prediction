@@ -4,6 +4,8 @@ from src.exception import CustomException
 from src.logger import logging
 import pandas as pd
 from src.utils import load_object
+from src.utils import save_object
+
 import json
 
 class predictPipeline:
