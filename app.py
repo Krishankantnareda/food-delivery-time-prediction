@@ -35,11 +35,11 @@ def predict_datapoint():
         data_df['Order_Date']=pd.to_datetime(data_df['Order_Date'],format='%Y-%m-%d')
         data_df['Order_Date']=data_df['Order_Date'].dt.strftime('%d-%m-%Y')
         pred_pipeline=predictPipeline()
-        #print(data_df.columns)
+        #  print(data_df.columns)
         pred_val=pred_pipeline.predict(data_df)
         return render_template('resultpage.html',final_result=pred_val)
     
 
 if __name__=="__main__":
-    app.run(host='0.0.0.0',port=8080)
+    app.run(host='0.0.0.0',port=7070)
 
